@@ -1,0 +1,254 @@
+body{
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+    padding: 0;
+    /* background-image: url('img/Background.jpg');
+    opacity:inherit; */
+    background-size: cover; /* Cobrir todo o fundo */
+    background-position: center; /* Centralizar a imagem */
+    background-attachment: fixed; /* Fixar o fundo */
+
+}
+ul{
+    padding: 0px!important;
+}
+.menu-principal {
+    width: 100%;
+    background-color: #04052e;
+    height: 120px;
+}
+main{
+    margin: 0 auto;
+    width: 980px;
+    position: relative;
+}
+.logo{
+    float: left;
+    padding: 16px;
+    width: 50%;
+    margin-left: 200px;
+}
+.redes-sociais ul li{
+    margin-top: 30px;
+    margin-left: 20px;
+    display: inline-block;
+    float: left;
+    list-style: none;
+}
+.redes-sociais{
+    width: 26%;
+    float: right;
+}
+.header-2{
+    background-color: #ffffff;
+    width: 980px;
+    margin: 0 auto;
+    padding: 30px;
+}
+.menu-urls{
+    height: 120px;
+    border-bottom: 3px solid #efefef;   
+    width: 100%;
+}
+.menu ul li{
+    display: inline-block;
+    color: #8b8b8b;
+    margin-left: 20px;
+}
+.menu ul li a:hover{
+    color: #04052e;
+    border-bottom: 1px solid red;
+}
+.menu ul li a {
+    color: #8b8b8b;
+    text-decoration: none;
+    font-size: 18px;
+    text-transform: uppercase;
+}
+.menu{
+    width: 100%;
+    float: left;
+}
+.busca{
+    width: 15%;
+    float: right;
+    text-align: center;
+   position: relative;
+    top: -45px;
+}
+.busca input{
+    background-image: url(icone-search.png);
+    background-repeat: no-repeat;
+    background-position: 96%;
+    margin: 0 auto;
+    padding: 7px;
+    border: 1px solid #d6d6d6;
+}
+
+.page-classes .classes-know {
+    padding: 90px 0;
+    position: relative;
+    overflow: hidden;
+    background-color: #F2F2F2;
+}
+
+.container {
+    width: 100%;
+    padding-right: 15px;
+    padding-left: 15px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.subtitle--center {
+    text-align: center;
+}
+
+.subtitle {
+    color: #1005aa;
+    font-size: 15px;
+    line-height: 1;
+    letter-spacing: 1.2px;
+    font-weight: 900;
+    display: block;
+    margin: 0 0 10px;
+    padding: 0;
+    font-family: finalsix, sans-serif;
+}
+
+.tittle-center {
+    color: #000;
+    font-size: 30px;
+    line-height: 36px;
+    font-weight: 900;
+    display: block;
+    margin: 0 0 30px;
+    padding: 0;
+    font-family: finalsix, sans-serif;
+    text-align: center
+}
+
+
+
+
+/* Todas as caixas */
+
+.caixas {
+    display: grid;
+    grid-template-columns: auto auto;/*  Duas colunas de largura automática */
+    position: relative;
+    /* width: 100%; */
+    padding-right: 15px;
+    padding-left: 15px;
+    box-sizing: inherit;
+    margin: 30px;
+    float: left;
+  }
+ 
+
+/* Caixa de texto 1*/
+.caixa {
+    width: 330px;
+    height: 309px;
+    background-color: #f0f0f0;
+    border: 1px solid #cccccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 40%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    background-image: url(img/from_hunter_to_the_world.png);
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    left: 114px;
+   } 
+   .oculto-1 {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(255, 1, 1, 0.822);
+    padding: 10px;
+    }
+
+.caixa:hover .oculto-1 {
+    display: block;
+}
+
+
+/* Caixa de texto 2*/
+.caixa-2 {
+    width: 330px;
+    height: 309px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 8.33333%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    background-image: url(img/Eng_Camp.jpg);
+    background-size:cover;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    margin: 0 0 30px;
+    position: relative;
+    left: 305px;
+}
+
+.oculto-2 {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(255, 1, 1, 0.822);
+    padding: 10px;
+    }
+
+.caixa-2:hover .oculto-2 {
+    display: block;
+}
+
+/* Caixa de texto 3*/
+.caixa-3 {
+    width: 330px;
+    height: 309px;
+    background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+    margin-left: 70%;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 8px;
+    background-image: url(img/Social\ Actions.jpg);
+    background-size: cover;
+    box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.75);
+    left: 216px;
+    
+}
+
+.oculto-3 {
+    display: none;
+    position: absolute;
+    top: 90%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    background-color: rgba(255, 1, 1, 0.822);
+    padding: 10px;
+    }
+
+.caixa-3:hover .oculto-3 {
+    display: block;
+}
+
